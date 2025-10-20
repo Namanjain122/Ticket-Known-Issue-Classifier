@@ -1,0 +1,14 @@
+2025-09-16 15:32:07,343 - app - INFO - 🚀 Starting Flask application...
+2025-09-16 15:32:07,352 - app - DEBUG - CORS enabled for the app.
+2025-09-16 15:32:07,354 - app - DEBUG - Blueprints registered: api_bp, views_bp
+2025-09-16 15:32:07,354 - app - INFO - ✅ Flask app created with config: DEBUG=False | DB_SERVER=192.168.1.10 | DB_NAME=ticketdbreport
+2025-09-16 15:32:39,805 - app - INFO - 🚀 Starting Flask application...
+2025-09-16 15:32:39,807 - app - DEBUG - CORS enabled for the app.
+2025-09-16 15:32:39,810 - app - DEBUG - Blueprints registered: api_bp, views_bp
+2025-09-16 15:32:39,810 - app - INFO - ✅ Flask app created with config: DEBUG=False | DB_SERVER=192.168.1.10 | DB_NAME=ticketdbreport
+2025-09-16 15:32:39,829 - werkzeug - WARNING -  * Debugger is active!
+2025-09-16 15:34:00,977 - app - INFO - 🚀 Starting Flask application...
+2025-09-16 15:34:00,981 - app - DEBUG - CORS enabled for the app.
+2025-09-16 15:34:00,983 - app - DEBUG - Blueprints registered: api_bp, views_bp
+2025-09-16 15:34:00,983 - app - INFO - ✅ Flask app created with config: DEBUG=False | DB_SERVER=192.168.1.10 | DB_NAME=ticketdbreport
+2025-09-16 15:34:01,004 - werkzeug - WARNING -  * Debugger is active!
