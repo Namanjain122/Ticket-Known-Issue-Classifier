@@ -4,8 +4,7 @@
 This project is an **AI-powered ticket classification system** that automatically maps **user-entered issues** to a set of **predefined known issues**.  
 It leverages **Sentence Transformers** to generate text embeddings and calculates **semantic similarity** to find the closest matching issue.
 
-Developed with a modular architecture for scalability and maintainability, the project can easily integrate into real-world ticketing systems or IT support tools.
-
+The system was developed during my **internship** and is **currently active and in use** within the company’s internal ticketing platform to automate issue categorization and improve resolution efficiency.
 ---
 
 ## 🧠 Key Features
