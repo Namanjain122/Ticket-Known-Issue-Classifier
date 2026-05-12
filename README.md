@@ -1,52 +1,42 @@
 # 🎫 Ticket Known Issue Classifier using Sentence Transformers
 
 ## 📘 Overview
-This project is an **AI-powered ticket classification system** that automatically maps **user-entered issues** to a set of **predefined known issues**.  
-It leverages **Sentence Transformers** to generate text embeddings and calculates **semantic similarity** to find the closest matching issue.
+An AI-powered ticket classification system that automatically maps user-reported issues to predefined known issues using semantic similarity and Sentence Transformers.
 
-The system was developed during my **internship** and is **currently active and in use** within the company’s internal ticketing platform to automate issue categorization and improve resolution efficiency.
+The system generates text embeddings from incoming ticket descriptions and compares them against stored known issues using cosine similarity to identify the closest match with high accuracy.
+
+This solution was developed during my internship and is currently deployed within the company’s internal ticketing platform to automate issue categorization, reduce manual effort, and improve ticket resolution efficiency.
+
 ---
 
 ## 🧠 Key Features
-- 🤖 **Semantic similarity matching** using Sentence Transformers (e.g., `all-MiniLM-L6-v2`).
-- ⚡ **Fast classification** using cosine similarity between embeddings.
-- 🧩 **Modular architecture** — routes, services, and utilities neatly separated.
-- 💾 Integrated with a database service for issue storage and retrieval.
-- 🚀 **Production and development modes** supported (`run_dev.py`, `run_prod.py`).
-- 📜 Logging system for tracking predictions and performance.
+
+- 🤖 Semantic similarity matching using Sentence Transformers (`all-MiniLM-L6-v2`)
+- ⚡ Fast issue classification using cosine similarity
+- 🧩 Modular backend architecture with separated routes, services, and utilities
+- 💾 Database integration for issue storage and retrieval
+- 🚀 Dedicated development and production execution modes
+- 📜 Logging system for prediction tracking and monitoring
+- 🔍 Scalable NLP-based issue recommendation pipeline
 
 ---
 
-## 🧑‍💻 Tech Stack
-| Category | Tools / Frameworks |
-|-----------|--------------------|
+## 🛠️ Technology Stack
+
+| Category | Technology |
+|---|---|
 | Language | Python |
-| Framework | Flask / FastAPI |
-| NLP | Sentence Transformers (Hugging Face) |
-| Database | SQLite / MySQL (via `database.py`) |
+| Backend Framework | Flask / FastAPI |
+| NLP Model | Sentence Transformers |
+| Embedding Model | all-MiniLM-L6-v2 |
+| Similarity Method | Cosine Similarity |
+| Database | SQLite / MySQL |
 | Libraries | Transformers, Sentence-Transformers, NumPy, Pandas, Scikit-learn |
-| Deployment | Gunicorn / Uvicorn / Docker (optional) |
+| Deployment | Gunicorn / Uvicorn / Docker |
 
 ---
 
-## 📂 Project Structure
-app/
-├── routes/ # API endpoints and views
-│ ├── init.py
-│ ├── api.py # Core API routes
-│ └── views.py # UI or frontend endpoints (if any)
-│
-├── services/ # Business logic and model services
-│ ├── database.py # Database connection and queries
-│ └── similarity_service.py # Core NLP logic using Sentence Transformers
-│
-├── utils/ # Helper utilities
-│ └── init.py
-│
-├── data/ # Dataset or CSV files (known issues, etc.)
-│
-├── logs/ # Log files for activity tracking
-│
-├── requirements.txt # Dependencies
-├── run_dev.py # Development server runner
-└── run_prod.py # Production server runner
+## ⚙️ How It Works
+
+```text
+User Ticket → Text Embedding Generation → Semantic Similarity Matching → Known Issue Prediction
