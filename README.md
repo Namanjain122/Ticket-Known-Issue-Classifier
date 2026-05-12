@@ -37,7 +37,7 @@ This solution was developed during my internship and is currently deployed withi
 ---
 
 ## ⚙️ How It Works
-
+<img width="1266" height="930" alt="Ticketing system" src="https://github.com/user-attachments/assets/8a16e435-17e0-4054-9171-ae6160977405" />
 ## 📂 Project Structure
 
 ```text
@@ -64,5 +64,4 @@ app/
 
 ```text
 User Ticket → Text Embedding Generation → Semantic Similarity Matching → Known Issue Prediction
-<img width="1266" height="930" alt="Ticketing system" src="https://github.com/user-attachments/assets/8a16e435-17e0-4054-9171-ae6160977405" />
 
