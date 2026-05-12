@@ -39,6 +39,7 @@ This solution was developed during my internship and is currently deployed withi
 ## ⚙️ How It Works
 
 ## Project Structure
+'''
 app/
 ├── routes/                         # API endpoints and views
 │   ├── __init__.py
@@ -59,6 +60,7 @@ app/
 ├── requirements.txt                # Project dependencies
 ├── run_dev.py                      # Development runner
 └── run_prod.py                     # Production runner
+'''
 
 ```text
 User Ticket → Text Embedding Generation → Semantic Similarity Matching → Known Issue Prediction
